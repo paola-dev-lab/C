@@ -1,10 +1,10 @@
-#Scope_demo.c
+# Scope_demo.c
 
 Objectif: comprendre comment fonctionne la portée de variables en C (variables globales, variables locales, variables dans des blocs {} en utilisant printf pour verifier leur accessibilité.
 
-##Instructions
+## Instructions
 
-###Créer un programme en C qui: 
+### Créer un programme en C qui: 
 
 ---
 
@@ -14,7 +14,7 @@ Objectif: comprendre comment fonctionne la portée de variables en C (variables 
 4. Affiche les valeurs des deux variables avec printf pour vérifier leur accessibilité.
 5. Utilise una variable en dehors de son scope pour vérifier leur accessibilité.
 
-##⭐Compétences visées
+## ⭐Compétences visées
 
 ---
 
