@@ -89,9 +89,4 @@ dkms.conf
 .history
 .ionide
 
-# Ignorer les exécutables C
-scope-variables
-*.out
-a.out
-
 # End of https://www.toptal.com/developers/gitignore/api/c,linux,visualstudiocode
