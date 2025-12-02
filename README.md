@@ -1,13 +1,5 @@
-<div align="center">
-
-# 🔷🧩 Apprentissage du langage C  
+# 🧩 Apprentissage du langage C  
 ### *Petits exercices pour progresser pas à pas avant la Piscine 42*
----
-
-### 🧩 *Piece by piece, code by code.*
-
-</div>
-
 ---
 
 ## 🌱 Objectif du repository
@@ -22,8 +14,3 @@ Ce dépôt documente :
 - les blocs `{ }`  
 - les premières règles de syntaxe  
 - la compilation avec `gcc`  
-
----
-
-## 📂 Structure du repository
-
