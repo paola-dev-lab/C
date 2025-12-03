@@ -10,7 +10,10 @@ int main (void)
 
     { char b = 'p'; //variable dans le scope du bloc interne
     printf("celle-ci est une variable avec un caractère unique dans le scope du bloc supplémentaire: %c\n", b);
-    return 0;
+   ;
     }
+
+    /*    // Ici: b n'existe plus, car son scope est terminé.*/
+ return 0; // return à la fin de b permet de lire le bloc interne
 
 }
