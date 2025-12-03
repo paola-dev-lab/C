@@ -1,4 +1,3 @@
-/*work in progress*/
 #include <stdio.h>
 
 int main (void)
