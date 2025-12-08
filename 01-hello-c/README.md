@@ -6,7 +6,7 @@
 
 Écrire un programme C très simple qui affiche un message à l’écran en utilisant la fonction puts().
 
-# 📝 Instructions
+## 📝 Instructions
 
 Créer un fichier C contenant un programme qui :
 
@@ -18,7 +18,7 @@ Créer un fichier C contenant un programme qui :
 
 Le programme doit compiler sans warnings ni erreurs.
 
-# Compétences visées
+## Compétences visées
 
 Cet exercice permet de découvrir :
 
