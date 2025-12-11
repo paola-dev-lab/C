@@ -1,4 +1,6 @@
-# 🧩 Exercice — Déclaration et affichage de types numériques (long, unsigned, float)
+# 🧩 Exercice - Déclaration et affichage de types numériques (long, unsigned, float)
+
+📁 Dossier : ex01-datatypes-basics/ 📄 Code : datatypes_basics.c
 
 ## 🎯 Objectif
 
