@@ -1,5 +1,5 @@
 # 🧩 Apprentissage du langage C  
-### *Petits exercices pour progresser pas à pas avant la Piscine 42*
+### * Exercices pour progresser pas à pas avant la Piscine 42*
 ---
 
 ## 🌱 Objectif du repository
