@@ -14,6 +14,11 @@ printf("Celle-ci est une valeur unsigned %u\n", b);
 printf("celle-ci est une valeur float %f\n", c);
 
 
+/*afficher les valeurs avec les operations*/
+long s = a + 1000l; // déclaration de la variable du type long s = a +1000
+printf("%ld + 1000 = %ld\n", a, s);
+printf("Celle-ci est une valeur unsigned %u\n", b);
+printf("celle-ci est une valeur float %f\n", c);
 
 
 return 0;
