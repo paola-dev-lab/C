@@ -1,5 +1,7 @@
 # 🧩 Exercice — Manipulation des types numériques (long, unsigned, float)
 
+📁 Dossier : ex02-datatypes-operations/ 📄 Code : datatypes_operations.c
+
 ## 🎯 Objectif
 
 Approfondir la manipulation des types numériques en C en effectuant des opérations sur :
