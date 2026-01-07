@@ -3,13 +3,13 @@
 int main(void)
 
 {
-	int i = 0; // déclaration de la variable i
+	int i = 2; // déclaration et reinitialization de la variable
       
 	
-	while (i<5) //condition de la boucle
+	while (i<6) //condition de la boucle
         {
 	printf("i = %d\n", i);
-	i++;
+	i++; //incrementation
 
 	}
 
