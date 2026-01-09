@@ -14,15 +14,15 @@ printf("voici nombre de valeurs du tableau: %d\n", size); // afficher le calcul 
 int count_pairs = 0; //déclaration du compteur des nombres pairs affichés et initializarion à 0. 
 
 /*Trouver les nombres pairs dans le tableau */
-for (i=0; i < size; i++)  //initialization de i à 0, implemente l'instruction tant que l'indice est inférieur à la taille du tableau et incremente i d'une unité à chaque tour
+for (i=0; i < size; i++)  //initialization de i à 0, condition d'arrêt et incrementation.
 		
-{if (tableau[i] % 2 == 0)
-	{printf("voici les nombres pairs: %d\n", tableau[i]);
-		count_pairs++;}
+{if (tableau[i] % 2 == 0) //condition
+	{printf("voici les nombres pairs: %d\n", tableau[i]); //affichage d'éléments qui respectent la condition
+		count_pairs++;} //respectant la condition
  
 
 }
 
-printf("total de valeurs paires affichées : %d\n", count_pairs);
+printf("total de valeurs paires affichées : %d\n", count_pairs);//affichage du nombre envoyé par le compteur
 return (0);
 }
