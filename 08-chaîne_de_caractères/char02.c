@@ -15,14 +15,12 @@ while (str[i] != '\0') //parcourir la chaîne
  { printf("%c\n", str[i]); //afficher catactère par caractère
 	      
        if (str[i] == ' ')
-	       {
+
 		       count_spaces++;
-	               printf("nombre d'espaces : %d\n", count_spaces);
-	       }
-	 else 
-	    {count_letters++;
- 
-	       printf("nombre de lettres: %d\n", count_letters);}
+
+	 else if ((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z'))
+	    count_letters++;
+
 	 i++;
        
  }
