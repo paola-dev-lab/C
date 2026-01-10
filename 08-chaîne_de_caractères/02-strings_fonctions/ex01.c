@@ -24,13 +24,13 @@ int count_letters(char str[])
 int main(void)
 
 {
-        
 
+  
+char str[] = "Hola mundo cruel";
+int result;
 
+result = count_letters(str);
+printf("nombre de lettres : %d\n", result);
 
-char str[];
-
-
-
-
+return (0);
 }
