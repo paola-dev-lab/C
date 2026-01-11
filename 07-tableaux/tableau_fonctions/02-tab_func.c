@@ -4,15 +4,14 @@ int count_even(int arr[], int size)
 
 {
    int i = 0;
-   int count_even = 0; 
+   int count = 0; 
 
    while (i < size)
    {
       if (arr[i] % 2 == 0)
         
-      {
 	      count_even++;
-      }   
+       
    i++;
    } 
 
