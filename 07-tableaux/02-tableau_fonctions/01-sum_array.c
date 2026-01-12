@@ -1,16 +1,17 @@
 #include <stdio.h>
 
-int sum_array(int arr[], int size)
+int sum_array(int arr[], int size) //déclaration de la fonction
 {
+/* déclaration des variables*/
   int i = 0;
   int sum = 0;
 
 
-    while (i < size)
+    while (i < size) //initiation de la boucle : parcour le tableau jusqu'à 
     {
 
-	    sum += arr[i];
-	    i++;
+	    sum += arr[i]; //accumule les valeurs du tableau : somme la valeur stocke en sum et met stocke la dans sum
+	    i++; //incremente l'indice de 1
     }
 
 
@@ -18,17 +19,18 @@ int sum_array(int arr[], int size)
 
 }
 
-int main(void)
+int main(void) //fonction main
 
 {
- int numbers[] = {10, 20, 30, 40 };
- int size = sizeof(numbers) / sizeof(numbers[0]);
- int result;
+/* déclaration des variables*/
+ int numbers[] = {10, 20, 30, 40 }; //tableau
+ int size = sizeof(numbers) / sizeof(numbers[0]); // taille du tableau
+ int result; // déclaration de la variable result
 
-  result= sum_array(numbers, size);
-  printf("somme du tableau : %d\n", result);
+  result= sum_array(numbers, size); //initialization de la variable result : appel à la fonction avec les variables)
+  printf("somme du tableau : %d\n", result); // affichage
 
 
-	return (0);
+	return (0); //execution OK
 }
 
