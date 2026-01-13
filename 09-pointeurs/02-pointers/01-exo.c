@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void increment(int *n)
+void increment(int *n) //fonction increment de l'adresse avec type de renvoie null
 
 {
 
@@ -8,14 +8,14 @@ void increment(int *n)
 }
 
 
-int main(void)
+int main(void) 
 
 {
- int x = 5;
+ int x = 5; //déclaration d'une valeur entière
     
   printf("valeur avant la fonction: %d\n", x);
   
-  increment(&x);
+  increment(&x); //appel à la fonction avec l'adresse de x
 
   printf("valeur après la fonction: %d\n", x);
 
