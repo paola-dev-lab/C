@@ -21,7 +21,7 @@ Créer une fonction avec le prototype suivant :
 
 ```c
 void increment(int *n);
----
+ ```
 
 ## Contraintes
 
@@ -34,3 +34,4 @@ void increment(int *n);
 - ne pas utiliser de variable globale
 
 - compiler sans warning avec -Wall -Wextra -Werror
+
