@@ -21,3 +21,16 @@ Créer une fonction avec le prototype suivant :
 
 ```c
 void increment(int *n);
+---
+
+## Contraintes
+
+- utiliser un pointeur (int *)
+
+- utiliser l’opérateur de déréférencement (*)
+
+- ne pas modifier l’adresse du pointeur (n++ est interdit)
+
+- ne pas utiliser de variable globale
+
+- compiler sans warning avec -Wall -Wextra -Werror
