@@ -1,6 +1,7 @@
 # EXERCICE - Modifier un tableau via pointeur 
 
-## 🎯 Objectif : utiliser les pointeurs pour lire / modifier un tableau, sans printf dans la fonction.
+## 🎯 Objectif 
+Utiliser les pointeurs pour lire / modifier un tableau, sans printf dans la fonction.
 
 ## 📌 Consigne
 
@@ -8,6 +9,7 @@
 - La fonction ne retourne rien
 - Elle modifie le tableau directement
 - L’affichage se fait dans main
+
 
 
 
