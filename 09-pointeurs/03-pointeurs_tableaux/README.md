@@ -1,4 +1,4 @@
-## EXERCICE - Modifier un tableau via pointeur (AVEC solution guidée)
+## EXERCICE - Modifier un tableau via pointeur 
 
 # 📌 Consigne
 
@@ -6,4 +6,5 @@
 - La fonction ne retourne rien
 - Elle modifie le tableau directement
 - L’affichage se fait dans main
+
 
