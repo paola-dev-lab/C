@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-int sum_array(int *arr, int size)
+int sum_array(int *arr, int size) // déclaration de la fonction
 
 {
 
    int i = 0;
    int sum = 0;
 
-   while ( i < size)
+   while ( i < size) // parcour le tableau
 
     {
- 	    sum += *arr;
-	    arr++;
-           i++;
+ 	    sum += *arr; //somme et stocke le resultat dans sum
+	    arr++; // incremente l'adresse : adresse suivante
+           i++; //incremente l'indice
 
     }
-return(sum); 
+return(sum); //renvoie la valeur stockée dans sum
 }
 
 int main (void)
