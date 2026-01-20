@@ -29,7 +29,7 @@ int main (void)
      while (i < size) 
 	  
     { 
-	    printf("tableau sans valeurs negatives: %d\n", s[i]);
+	    printf("s[%d] =  %d\n", i, s[i]);
             i++;
     }
 
