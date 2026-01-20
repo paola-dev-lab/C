@@ -1,21 +1,21 @@
 #include <stdio.h>
-
+ /* déclaration de la fonction avec paramètres : 1 pointeur vers une chaîne de caractères, 2 pointeurs vers de nombres entiers */
 void count_letters_spaces(char *str, int *letters, int *spaces)
 
 {
   int i = 0;
 
-  while (str[i] != '\0')
+  while (str[i] != '\0') //parcourir le tableau
 
   {
-	  if ((str[i] >= 'a' && str[i] <= 'z')
-		 || (str[i] >= 'A' && str[i] <= 'Z'))
+	  if ((str[i] >= 'a' && str[i] <= 'z') //condition : si minuscule
+		 || (str[i] >= 'A' && str[i] <= 'Z')) // ou mayuscule
 	  {
-		(*letters)++;
+		(*letters)++; //incremente la valeur stockée dans letters
 	  }
-	  else if (str[i] == ' ') 
+	  else if (str[i] == ' ') // si la caractère est space
 	  {
-		 (*spaces)++;
+		 (*spaces)++; //incremente la valeur stockée dans spaces
 	  } 
   i++;
   }
