@@ -26,7 +26,7 @@ int main (void)
 
   remove_negatives(s, size);
   
-     while (s[i] < size) 
+     while (i < size) 
 	  
     { 
 	    printf("tableau sans valeurs negatives: %d\n", s[i]);
