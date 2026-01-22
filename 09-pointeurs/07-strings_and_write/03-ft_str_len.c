@@ -1,3 +1,5 @@
+/*La fonction calcule le nombre de caractères d'une chaîne, sans compter la caractère de fin '\0' et renvoie le nombre*/
+
 #include <stdio.h>
 
 
@@ -11,6 +13,8 @@ int ft_strlen(char *str)
 return (i); 
 }
 
+
+//test
 int main (void)
 
 {
