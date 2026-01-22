@@ -1,4 +1,4 @@
-/*la fonction affiche un caractèr en lisan sa valeur à partir de la mémoire */
+/*la fonction affiche un caractèr en lisant sa valeur à partir de la mémoire */
 
 #include <unistd.h>
 
