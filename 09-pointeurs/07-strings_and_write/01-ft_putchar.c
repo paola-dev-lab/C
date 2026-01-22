@@ -4,11 +4,11 @@
 
 void ft_putchar(char c) 
 	
-//void ne calcule rien et en renvoie aucun valeur; elle effectue un affichage. 
+//void ne calcule rien et ne renvoie aucune valeur; elle effectue un affichage. 
 
 {
 
-/*write lit les octet en mémoire à partir de l'adresse donnée et le écrit sur la sortie standard selon la taille indiquée */
+/*write lit les octets en mémoire à partir de l'adresse donnée et les écrit sur la sortie standard selon la taille indiquée */
 
    write ( 1, &c, 1); 
 //&c est l'adresse de c, write reçoit une adresse en paramètre
